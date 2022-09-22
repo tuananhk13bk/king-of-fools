@@ -59,8 +59,6 @@ contract KingOfFools is Ownable {
         ensureValidAmount(amount, false)
     {}
 
-    function test() public {}
-
     function withdraw() external onlyOwner {}
 
     function withdrawToken(IERC20 token) external onlyOwner {}
